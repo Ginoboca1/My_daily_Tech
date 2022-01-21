@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400&family=Roboto:ital,wght@0,100;0,300;1,400&display=swap');
 
 :root{
-    --fuenteHeading: 'Roboto', sans-serif;
-    --fuenteParrafos:'Roboto', sans-serif;
+    --fuenteHeading:  'Outfit', sans-serif;
+    --fuenteParrafos: 'Outfit', sans-serif;
 
     --darkGrey: #161a1d;
     --blanco: #ffffff;
@@ -185,7 +185,7 @@ width: 100%;
 }
 
 .img_galeria{
-    width: 9rem;
+    width: 20rem;
 }
 
 .despedida{
@@ -200,6 +200,41 @@ width: 100%;
     border: #161a1d solid 2px;
 }
 
+.portada_review{
+    height: 30rem;
+    background-image: url(media/galaxy-s10-plus-review-feat-edit2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.portada_texto{
+    margin-left: 2rem;
+    line-height: 3rem;
+}
+
+.span_portada{
+    font-size: 1.9rem;
+}
+
+.span-texto{
+    color: #87b38d;
+}
+
+.contenedor-conclusion{
+    display: grid;
+    grid-template-rows: 2,1fr;
+}
+
+.puntuacion{
+    background-color: #87b38d;
+    border: #161a1d solid 3px;
+    width: 10rem;
+    height: 7rem;
+    padding: 1rem;
+}
 
 @media(min-width: 768px) {
     .review-contenedor{
@@ -264,26 +299,26 @@ width: 100%;
     .span_portada{
         font-size: 1.9rem;
     }
+
+    .span-texto{
+        color: #87b38d;
+    }
+
+    .contenedor-conclusion{
+        display: flex;
+        align-items: center;
+    }
+
+    .puntuacion{
+        background-color: #87b38d;
+        width: 7rem;
+        height: 7rem;
+        padding: 1rem;
+        margin-right: 5rem;
+    }
 }
 
-.portada_review{
-    height: 30rem;
-    background-image: url(media/galaxy-s10-plus-review-feat-edit2.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-}
 
-.portada_texto{
-    margin-left: 2rem;
-    line-height: 3rem;
-}
-
-.span_portada{
-    font-size: 1.9rem;
-}
 
 
 
